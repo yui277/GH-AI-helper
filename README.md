@@ -1,3 +1,5 @@
+测试网址：https://www.lichengfu2003.top/tools/gha/gha.html
+
 # **🦗 cf GH Helper: 基于动态多维并发路由的参数化协同矩阵**
 
 传统的单体大模型在面对高度结构化、严谨度极高的 Grasshopper (GH) 节点化编程时，往往会陷入“捏造运算器（幻觉）”和“数据拓扑（Data Tree）塌陷”的泥沼。
