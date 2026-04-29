@@ -1,7 +1,7 @@
 # 部署架构说明 / Deployment Architecture Guide
 
 **项目名称 / Project Name**: GH Helper（小壁蜂OsmiaAI）  
-**版本 / Version**: v0.3.6-beta  
+**版本 / Version**: v0.3.8-beta  
 **在线体验 / Live Demo**: https://topogenesis.top/intro/ghhelper  
 **部署类型 / Deployment Type**: 前端静态文件 + PHP 后端代理
 

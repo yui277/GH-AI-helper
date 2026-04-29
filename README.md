@@ -153,9 +153,27 @@ GH Helper (OsmiaAI) Super/
 │   └── wiring-panel.js           # 连线面板渲染器 / Wiring panel renderer
 │
 ├── knowledge/                    # 知识库 / Knowledge Base
-│   ├── index.json                # 知识库索引 / Knowledge base index
+│   ├── index.json                # 知识库索引 (v0.3.8-beta-kb4)
 │   ├── native/                   # 原生组件知识 / Native components knowledge
-│   └── plugin/                   # 插件知识 / Plugin knowledge
+│   │   ├── gh_params_input.json        # 输入与参数控制
+│   │   ├── gh_math_sets_tree.json      # 数学、集合与数据树
+│   │   ├── gh_curve_surface_solid.json # 曲线、曲面与实体
+│   │   ├── gh_transform_intersect_analysis.json # 变换、相交与分析
+│   │   └── gh_mesh_fabrication.json    # 网格与建造理化
+│   ├── plugin/                   # 插件知识 / Plugin knowledge
+│   │   ├── gh_kangaroo.json            # Kangaroo
+│   │   ├── gh_weaverbird.json          # WeaverBird
+│   │   ├── gh_lunchbox_panelingtools_opennest.json
+│   │   ├── gh_plugin_heteroptera_bifocals.json
+│   │   ├── gh_plugin_human.json
+│   │   ├── gh_plugin_ladybug.json
+│   │   └── gh_plugin_pufferfish.json
+│   └── collections/              # 工作流知识 / Workflow collections
+│       ├── gh_workflow_panelization.json   # 面板化设计
+│       ├── gh_workflow_datadriven.json     # 数据驱动
+│       ├── gh_workflow_fabrication.json    # 建造理化
+│       ├── gh_workflow_facade.json         # 幕墙设计
+│       └── gh_workflow_formfinding.json    # 形态寻找
 │
 └── bak/                          # 历史版本备份 / Historical version backup
 ```

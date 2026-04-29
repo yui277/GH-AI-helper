@@ -1,7 +1,7 @@
 # 模块架构说明 / Module Architecture Guide
 
 **项目名称 / Project Name**: GH Helper（小壁蜂OsmiaAI）  
-**版本 / Version**: v0.3.6-beta  
+**版本 / Version**: v0.3.8-beta  
 **在线体验 / Live Demo**: https://topogenesis.top/intro/ghhelper  
 **架构模式 / Architecture Pattern**: 分层架构 + 事件驱动 / Layered Architecture + Event-Driven
 
