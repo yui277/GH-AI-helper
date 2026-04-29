@@ -24,6 +24,7 @@ This repository is a sanitized public archive for technical documentation and re
 | File | Purpose |
 | --- | --- |
 | README.md | Entry point and 0.3.8-beta summary |
+| LICENSE | MIT License for this public sanitized repository |
 | TECHNICAL-ARCHITECTURE.md | Primary architecture description |
 | DATA-FLOW.md | Mermaid diagrams for project-specific data flow |
 | MODULES.md | Module responsibility map without generic tutorials |
@@ -41,6 +42,8 @@ This repository is a sanitized public archive for technical documentation and re
 ## What Changed In This Documentation Pass
 
 - Added `TECHNICAL-ARCHITECTURE.md`.
+- Restored README sections from the older public README, including overview, tech stack, metrics and MIT License.
+- Added a root `LICENSE` file.
 - Replaced long tutorial-style module notes with a concise architecture brief.
 - Reworked data-flow diagrams around real 0.3.8-beta behavior.
 - Updated API docs to emphasize async task mode and server-side secrets.

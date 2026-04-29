@@ -20,6 +20,8 @@ The latest private project line remains outside the repository. Public docs now 
 | Area | Improvement |
 | --- | --- |
 | Product positioning | Clarifies that OsmiaAI is lightweight orchestration around an LLM, not model training |
+| README completeness | Restores the older public README's overview, core features, tech stack, quick start, metrics and license sections |
+| License | Adds root MIT `LICENSE` file for the public sanitized repository |
 | Architecture | Adds a dedicated technical architecture document with Mermaid diagrams |
 | Modules | Replaces tutorial-style module explanations with responsibility and value tables |
 | API | Documents async proxy behavior and secret handling without exposing implementation details |
@@ -61,6 +63,7 @@ The latest private project line remains outside the repository. Public docs now 
 | File | Status |
 | --- | --- |
 | README.md | Updated |
+| LICENSE | Added |
 | TECHNICAL-ARCHITECTURE.md | Added |
 | DATA-FLOW.md | Rewritten |
 | MODULES.md | Rewritten |
