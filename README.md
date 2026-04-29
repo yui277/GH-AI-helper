@@ -1,7 +1,7 @@
 # 🦗 GH Helper（小壁蜂OsmiaAI）: 基于动态多维并发路由的参数化协同矩阵
 # GH Helper (OsmiaAI): Parametric Collaborative Matrix Based on Dynamic Multi-dimensional Routing Concurrent Orchestration
 
-**版本 / Version**: v0.3.8-beta  
+**版本 / Version**: 0.3.8-beta
 **发布日期 / Release Date**: 2026-04-27  
 **开发者 / Developer**: cf (lichengfu2003)  
 **技术架构 / Architecture**: DeepSeek V4 Pro & JIT Prompt-Level MoE
@@ -26,7 +26,17 @@
 
 ---
 
-## 🆕 v0.3.8-beta 更新内容 / v0.3.8-beta Changelog
+## 发布边界 / Release Boundary
+
+本仓库是公开发布仓库，只包含脱敏后的技术文档、架构说明和 `src/` 下的抽象化代码骨架。`GH_helper_super0.3.8` 的完整工程源文件、后端代理实现、运行数据库、知识库 JSON、运行缓存、用户数据和任何 API key 都不应直接发布到 GitHub。
+
+This public repository contains only sanitized documentation, architecture notes, and abstracted code skeletons under `src/`. Full engineering source files, backend proxy implementations, runtime databases, knowledge-base JSON, caches, user data, and API keys must not be published here.
+
+发布规则见 [RELEASE-POLICY.md](./RELEASE-POLICY.md)，安全说明见 [SECURITY.md](./SECURITY.md)。
+
+---
+
+## 🆕 0.3.8-beta 更新内容 / 0.3.8-beta Changelog
 
 ### 🎨 UI 重大重构 / Major UI Redesign
 - **ChatGPT 风格侧边栏 + 主对话界面布局**：电脑端全面采用侧边栏 (280px) + 主对话区域的新布局，将设置、导航、对话历史等全部整合至左侧侧边栏，右侧主区域完整铺满作为对话界面
@@ -153,7 +163,7 @@ GH Helper (OsmiaAI) Super/
 │   └── wiring-panel.js           # 连线面板渲染器 / Wiring panel renderer
 │
 ├── knowledge/                    # 知识库 / Knowledge Base
-│   ├── index.json                # 知识库索引 (v0.3.8-beta-kb4)
+│   ├── index.json                # 知识库索引 (0.3.8-beta-kb4)
 │   ├── native/                   # 原生组件知识 / Native components knowledge
 │   │   ├── gh_params_input.json        # 输入与参数控制
 │   │   ├── gh_math_sets_tree.json      # 数学、集合与数据树
@@ -183,6 +193,10 @@ GH Helper (OsmiaAI) Super/
 ## 🚀 快速开始 / Quick Start
 
 ### 本地部署 / Local Deployment
+
+以下说明描述私有工程的部署形态；公开 GitHub 仓库不包含可直接部署的完整工程文件。
+
+The following notes describe the private engineering deployment shape. The public GitHub repository does not contain a directly deployable full source package.
 
 **中文**:
 1. 确保服务器支持 PHP 7.4+ 和 SQLite

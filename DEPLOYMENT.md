@@ -1,9 +1,13 @@
 # 部署架构说明 / Deployment Architecture Guide
 
 **项目名称 / Project Name**: GH Helper（小壁蜂OsmiaAI）  
-**版本 / Version**: v0.3.8-beta  
+**版本 / Version**: 0.3.8-beta
 **在线体验 / Live Demo**: https://topogenesis.top/intro/ghhelper  
 **部署类型 / Deployment Type**: 前端静态文件 + PHP 后端代理
+
+> 发布边界 / Release boundary: 本文档描述私有工程的部署形态。公开 GitHub 仓库只保留脱敏后的文档和抽象代码骨架，不包含可直接部署的完整工程源码、知识库、数据库或密钥配置。
+>
+> This document describes the private engineering deployment shape. The public GitHub repository keeps only sanitized documentation and abstracted code skeletons; it does not include the full deployable source package, knowledge base, databases, or secret configuration.
 
 ---
 

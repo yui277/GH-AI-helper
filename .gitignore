@@ -3,13 +3,22 @@
 
 # 数据库文件
 *.db
+*.db-shm
+*.db-wal
 *.sqlite
 *.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sql
 
 # 密钥配置文件
 secrets.local.php
 .env
 *.env
+*.local.*
+*.key
+*.pem
+*.p12
 
 # 运行时缓存
 runtime/
@@ -32,3 +41,21 @@ desktop.ini
 # 日志文件
 *.log
 logs/
+
+# 原始工程文件禁止直接发布
+# Raw project files must not be published directly
+GH_helper_super.html
+CellChord_Footer_small.html
+user-agreement.html
+网页端用户服务协议.html
+网页端用户服务协议.txt
+webbase.css
+webbase.js
+gha_api.php
+api/
+js/
+knowledge/
+bak/
+raw/
+private/
+dist-raw/

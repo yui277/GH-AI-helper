@@ -1,7 +1,7 @@
 # API 参考文档 / API Reference
 
 **项目名称 / Project Name**: GH Helper（小壁蜂OsmiaAI）  
-**版本 / Version**: v0.3.8-beta  
+**版本 / Version**: 0.3.8-beta
 **在线体验 / Live Demo**: https://topogenesis.top/intro/ghhelper  
 **基础架构 / Base Architecture**: RESTful + 代理模式 / Proxy Pattern
 
