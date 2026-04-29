@@ -3,8 +3,8 @@
 
 | Item | Value |
 | --- | --- |
-| 版本 / Version | 0.3.8-beta |
-| 发布日期 / Release Date | 2026-04-27 |
+| 最新版本 / Version | 0.3.8-beta |
+| 更新日期 / Release Date | 2026-04-27 |
 | 开发者 / Developer | cf (lichengfu2003) |
 | 在线体验 / Live Demo | https://topogenesis.top/intro/ghhelper |
 | GitHub Repository | https://github.com/yui277/GH-AI-helper |
